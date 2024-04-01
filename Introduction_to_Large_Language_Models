@@ -1,0 +1,102 @@
+### Large Language Models
+- Are a Subset of Deep Learning
+- Large, general purpose language models can be pre-trained and then fine tuned for specific purposes
+
+
+### Large Language Models are used to solve common problems and specific problems
+
+**Large:**
+- Large training dataset
+- Large number of parameters
+**General Purpose**:
+- Commonality of human languages
+- Resource restriction
+**Pre-trained and fine tuned**
+
+### Benefits of using large language models
+- A single model can be used for different tasks
+- The fine-tune process requires minimal field data
+- The performance of large language models grows 
+
+### Pathways Language Model (PaLM) (https://ai.google/discover/palm2/)
+- Has 540 billion parameters
+- Leverages the new Pathway system
+- Orchestrates distributed computation for accelerators
+
+### Transformer Model
+- Encoding component
+- Decoding component
+
+### LLM Development using pretrained APIs
+- No ML expertise needed
+- No training examples
+- No need to train a model
+- Thinks about prompt design 
+
+### Traiditional ML Development
+- Yes ML expertise needed
+- Yes training examples 
+- Yes need to train a model
+- Yes compute time + hardware
+- Thinks about minimizing a loss function
+
+### Question Answering in Natural Language Processing
+- Question Answering is a task that involves extracting the answer to a question from a given text.
+- Domain knowledge is required to solve this task.
+- Generative QA there is no need for domain knowledge
+
+### Generative QA
+- Generative QA is a task that involves generating a response to a given question.
+- Domain knowledge is not required to solve this task.
+
+### Prompt Desing and Prompt Engineering
+- Prompt involve instructions and context passed to a language model to achieve a desired task.
+- Prompt engineering is the practice of developing and optimizing prompts to efficiently use language models for a variety of applications.
+
+### 3 Main kinds of LLM
+- Generic or Raw Language Models | These predict the next word based on the language in the training data.
+- Instruction Tuned | Trained to predict a response to the instructions given in the input.
+- Dialog Tuned | Trained to have a dialog by predicting the next response.
+
+### Model Garden Task Specific Models
+- Language and Vision
+
+### Tuning 
+- The process of adapting a model to a new domain or set of custom use cases by training the model on new data. For example we may collect training data and "tune" the LLM specifically for the legal or medical domain.
+
+### Fine tuning
+- Bring your own dataset of and retrain the model by tuning every weight in the LLM. This requires a big training job (like really big) and hosting your own fine-tuned model.
+
+### Parameter-Efficient Tuning Methods (PETM)
+- A family of methods that use a small number of examples to adapt a model to a new task.
+- The most common PETM is Prompt Tuning.
+
+### Vertex AI Studio
+- Fine tune models
+- Deploy models to production
+- Create chatbots
+- Image Generation
+- and more!
+
+- Vertex AI Search and Conversation created Generative AI Apps
+
+
+
+[Link to the Readings for this Segment](documents\All Readings - Introduction to Large Language Models.pdf)
+
+
+### TODO
+
+Favorite:
+
+
+Least Favorite:
+
+
+Neutral:
+
+
+
+
+
+
